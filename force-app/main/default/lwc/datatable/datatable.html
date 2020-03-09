@@ -1,0 +1,15 @@
+<template>
+  <div style="height: 300px;">
+      <lightning-datatable
+              key-field="id"
+              show-row-number-column
+              data={data}
+              errors={errors}
+              columns={columns}>
+      </lightning-datatable>
+      <lightning-button
+      label="Trigger error"
+      onclick={triggerError}>
+  </lightning-button>
+  </div>    
+</template>
