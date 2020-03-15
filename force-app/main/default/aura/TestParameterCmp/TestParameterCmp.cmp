@@ -1,0 +1,7 @@
+<aura:component implements="force:appHostable" access="global">
+  <lightning:button variant="success" label="成功" onclick="{!c.myAction}"/>
+  <lightning:navigation aura:id="navService"/>
+  <aura:attribute name="pageReference" type="Object"/>
+  <aura:handler name="init" value="{! this }" action="{! c.init }"/>  
+  <lightning:button variant="success" label="start" onclick="{!c.start}" />
+</aura:component>	

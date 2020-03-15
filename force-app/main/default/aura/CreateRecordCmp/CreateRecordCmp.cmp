@@ -1,0 +1,6 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader">
+<!--   <aura:handler name="init" value="{! this }" action="{! c.myAction }"/> -->
+  <lightning:recordForm objectApiName="Account"
+                            layoutType="Full"
+                            columns="2"/>
+</aura:component>	
